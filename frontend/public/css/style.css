@@ -1,0 +1,110 @@
+/* General Layout */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+  }
+  
+  .navbar, .footer {
+    background-color: #ffe600;
+    padding: 10px 20px;
+  }
+  
+  .navbar a, .footer a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  /* Product Listing */
+  .card {
+    margin-bottom: 20px;
+    border: none;
+  }
+  
+  .card img {
+    max-height: 200px;
+    object-fit: cover;
+  }
+  
+  .card .card-body {
+    text-align: center;
+  }
+  
+  /* Buttons */
+  .btn-primary {
+    background-color: #3483fa;
+    border: none;
+  }
+  
+  .btn-primary:hover {
+    background-color: #2968c8;
+  }
+  
+  .dropdown-submenu {
+    position: relative;
+  }
+  
+  .dropdown-submenu .dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -1px;
+  }
+
+  .login-container {
+      display: flex;
+      min-height: 100vh;
+      align-items: center;
+      justify-content: center;
+    }
+    .login-box {
+      display: flex;
+      width: 800px;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    }
+    .login-form {
+      padding: 40px;
+      background-color: #fff;
+      width: 50%;
+    }
+    .login-form h2 {
+      font-weight: bold;
+      margin-bottom: 30px;
+    }
+    .login-form input {
+      border-radius: 0;
+      border-bottom: 1px solid #ddd;
+      border-top: none;
+      border-left: none;
+      border-right: none;
+    }
+    .login-image {
+      background: url('/images/city-background.jpg') no-repeat center center;
+      background-size: cover;
+      width: 50%;
+      position: relative;
+    }
+    .login-image::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(0, 0, 128, 0.6); /* Fondo azul translúcido */
+    }
+    .login-image .company-logo {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      color: #fff;
+    }
+    .login-image .company-logo h3 {
+      margin: 10px 0 0;
+      font-weight: bold;
+      font-size: 24px;
+    }
+  
